@@ -5,9 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+
   </head>
   <body>
-	<script src="index.js"></script>
+    <main>
+      <section class="home">
+        <h1>I am Groot.<br>This is my portfolio.</h1>
+        <h4>Hint: click any of the icon</h4>
+        <div class="images">
+          <a href="#projects">
+            <img class="project1"src="https://media.giphy.com/media/yidUzil7u0LK8kbtvy/giphy.gif">
+          </a>
+          <a href="#about">
+            <img class="project2"src="https://media.giphy.com/media/yidUzil7u0LK8kbtvy/giphy.gif">
+          </a>
+          <a href="#contact">
+            <img class="project3"src="https://media.giphy.com/media/yidUzil7u0LK8kbtvy/giphy.gif">
+          </a>
+        </div>
+      </section>
+      <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="samples">
+          <img class="p1"src="https://media.giphy.com/media/yidUzil7u0LK8kbtvy/giphy.gif">
+          <img class="p2"src="https://media.giphy.com/media/yidUzil7u0LK8kbtvy/giphy.gif">
+          <img class="p3"src="https://media.giphy.com/media/yidUzil7u0LK8kbtvy/giphy.gif">
+        </div>
+        <div class="project-description">
+          <div class="text1"><p>asd</p></div>
+          <div class="text2"><p>qwe</p></div>
+          <div class="text3"><p>zxc</p></div>
+        </div>
+        
+      </section>
+      <section class="about" id="about">
+        <h2>About me</h2>
+        <div class="abouttext">
+          <img src="https://media.giphy.com/media/l4KhKRcaYb43LVqq4/giphy.gif">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quibusdam, rem esse incidunt ea cupiditate praesentium! Adipisci magni excepturi possimus? Amet beatae officia quisquam sequi earum blanditiis autem nesciunt rem.</p>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h2>Contact me</h2>
+        <div class="contactpage">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, accusantium fuga.</p>
+          <button class="button">
+            <span class="front">
+              Push me
+            </span>
+          </button>
+        </div>
+      </section>
+    </main>
   </body>
+  <script src="/index.js"></script>
 </html>
